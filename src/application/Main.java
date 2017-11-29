@@ -10,6 +10,7 @@ import javafx.stage.Stage;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
+import javafx.stage.StageStyle;
 
 
 public class Main extends Application {
@@ -25,9 +26,10 @@ public class Main extends Application {
 			Parent root = FXMLLoader.load(getClass().getResource("view/Menu.fxml"));
 			this.stage = stage;
 			scene = new Scene(root, 500, 275);
-	        this.stage.setTitle("FXML Welcome");
+	        this.stage.setTitle("Secret Santa");
 	        this.stage.setScene(scene);
 	        this.stage.show();
+	        this.stage.setResizable(false);
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
