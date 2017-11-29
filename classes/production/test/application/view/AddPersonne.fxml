@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="218.0" prefWidth="496.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.view.AddPersonneController">
+  <!-- TODO Add Nodes -->
+  <children>
+    <TextField fx:id="nom" layoutX="58.0" layoutY="54.0" prefWidth="120.0" />
+    <TextField fx:id="prenom" layoutX="58.0" layoutY="98.0" prefWidth="120.0" />
+    <TextField fx:id="email" layoutX="58.0" layoutY="139.0" prefWidth="120.0" />
+    <Button fx:id="validate" layoutX="302.0" layoutY="141.0" mnemonicParsing="false" onAction="#validate" text="Ajouter" />
+    <Label layoutX="58.0" layoutY="38.0" text="Nom" />
+    <Label layoutX="58.0" layoutY="82.0" text="Prénom" />
+    <Label layoutX="58.0" layoutY="125.0" prefWidth="120.0" text="Email" />
+    <Button fx:id="retour" layoutX="2.0" layoutY="4.0" mnemonicParsing="false" onAction="#retour" text="Retour" />
+    <Label fx:id="error" layoutX="65.0" layoutY="12.0" text="" />
+  </children>
+</AnchorPane>

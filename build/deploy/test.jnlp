@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="test.jnlp">
+  <information>
+    <title>test</title>
+    <vendor>application</vendor>
+    <description>Secret Santa</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="test.jar" size="13881" download="eager" />
+    <jar href="libs\mail.jar" size="507849" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class=""  name="Secret Santa" />
+  <update check="background"/>
+</jnlp>
